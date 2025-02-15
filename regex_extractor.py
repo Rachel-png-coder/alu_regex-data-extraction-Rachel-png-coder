@@ -34,22 +34,11 @@ def process_emails():
 
 if __name__ == "__main__":
     process_emails()
-    
-    
-    
-    # extracting urls
-    def extract_urls(text):
-        return list(set(urls))  # Remove duplicates
-        
-    """
-    Extracts URLs from the given text using regular expressions.
-    """
-    url_pattern = r'https?://(?:www\.)?[-\w]+(?:\.\w[-\w]*)+[\w\-._~:/?#[\]@!$&\'()*+,;=]*'
-    urls = re.findall(url_pattern, "text")
+
     
 
 
-# importing urls 
+# extracting urls 
 
 def extract_urls(text):
     """
